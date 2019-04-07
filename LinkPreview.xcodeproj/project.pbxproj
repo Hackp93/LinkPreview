@@ -14,6 +14,8 @@
 		771AAA22225A089F00CD100E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 771AAA20225A089F00CD100E /* LaunchScreen.storyboard */; };
 		771AAA2D225A089F00CD100E /* LinkPreviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771AAA2C225A089F00CD100E /* LinkPreviewTests.swift */; };
 		771AAA38225A089F00CD100E /* LinkPreviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771AAA37225A089F00CD100E /* LinkPreviewUITests.swift */; };
+		771AAA46225A08C100CD100E /* HJLinkPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771AAA45225A08C100CD100E /* HJLinkPreview.swift */; };
+		771AAA48225A0B5C00CD100E /* ImageFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771AAA47225A0B5C00CD100E /* ImageFetcher.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		771AAA33225A089F00CD100E /* LinkPreviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinkPreviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		771AAA37225A089F00CD100E /* LinkPreviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkPreviewUITests.swift; sourceTree = "<group>"; };
 		771AAA39225A089F00CD100E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		771AAA45225A08C100CD100E /* HJLinkPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HJLinkPreview.swift; sourceTree = "<group>"; };
+		771AAA47225A0B5C00CD100E /* ImageFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFetcher.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				771AAA17225A089E00CD100E /* AppDelegate.swift */,
 				771AAA19225A089E00CD100E /* ViewController.swift */,
+				771AAA45225A08C100CD100E /* HJLinkPreview.swift */,
+				771AAA47225A0B5C00CD100E /* ImageFetcher.swift */,
 				771AAA1B225A089E00CD100E /* Main.storyboard */,
 				771AAA1E225A089F00CD100E /* Assets.xcassets */,
 				771AAA20225A089F00CD100E /* LaunchScreen.storyboard */,
@@ -257,6 +263,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				771AAA1A225A089E00CD100E /* ViewController.swift in Sources */,
+				771AAA48225A0B5C00CD100E /* ImageFetcher.swift in Sources */,
+				771AAA46225A08C100CD100E /* HJLinkPreview.swift in Sources */,
 				771AAA18225A089E00CD100E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
